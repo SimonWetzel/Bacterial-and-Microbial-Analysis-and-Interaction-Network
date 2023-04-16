@@ -23,7 +23,8 @@ library(biomart)
 library(plyr)
 
 
-#### Set Directory ####
+#### Set Directory for Bacteriome and/or Mycobiome data ####
+
 setwd("/home/simonw/Schreibtisch/Sequencing_Data/Fungiome/Crohn_Kohorte/0-Fungome_collaborations/Fungome")
 
 path <- "/home/simonw/Schreibtisch/Sequencing_Data/Fungiome/Crohn_Kohorte/0-Fungome_collaborations/Fungome/Fastq"
@@ -155,6 +156,7 @@ write.csv(track, file = "Pipeline_Track_final.csv")
 write.csv(sample.names, file = "sample.names.csv")
 #### End ####
 
+#Bacteriome
 #Assign taxonomy with unite/GTDB#
 #### Assign taxonomy for Bacteria with GTDB####
 #Analaysis of 16S rDNA Data using GTDB:-
@@ -179,6 +181,7 @@ head(taxa.print_spp_GTDB)
 
 #### End ####
 
+#Mycobiome
 ####Assign taxonomy for fungi with unite####
 #Analaysis of ITS Data Using UNITE.-
 
@@ -945,7 +948,7 @@ plot_abundance(psra_Entero, Facet = "Species", Color = NULL)
 
 Bacteroides<- as.data.frame(psra_Bacteroides@otu_table)
 
-#Bacterialspecies
+#Bacterial species
 psra_Bacteroides = subset_taxa(physeq_re, Genus ==" g__Faecalibacterium")
 plot_abundance(psra_Bacteroides, Facet = "Genus", Color = NULL)
 
@@ -1012,6 +1015,7 @@ print(Bacteroides)
 Bacteroides<- colSums(Bacteroides)
 Bacteroides<- array(Bacteroides)
 
+                                           
 
 
 sample_info_tab$Bacteroides<- Bacteroides
