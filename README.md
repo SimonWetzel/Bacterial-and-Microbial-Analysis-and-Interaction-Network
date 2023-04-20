@@ -1,3 +1,3 @@
-Bacterial-and-Microbial-Interactions-and-Network-Analysis
+*Bacterial-Microbial Interactions and Network Analysis*
 
 by Simon Wetzel 
