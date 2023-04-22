@@ -5,10 +5,10 @@ Copyright **Simon Wetzel and Mohamed Tarek Badr**, Date: 20 April 2023, Universi
 This code was used for the analysis of 16S/ITS2 sequencing samples for clinical studies carried out in institute of medical microbiology UMC Freiburg.
 
 The sample analysis workflow uses illumina short read fastq files as an input. 
-Bacteriome sequencing experiment are usually carried out using the following primers: 
+Bacteriome sequencing experiments are usually carried out using the following primers: 
 - 16S region V3-4 Klindworth et al. 341F 5′- CCT ACG GGN GGC WGC AG -3′, 805R 5′- GAC TAC HVG GGT ATC TAA TCC -3′ or V1-2 Donia et al. 27F 5'- AGAGTTTGATCCTGGCTCAG -3', 338R 5'- GCTGCCTCCCGTAGGAGT -3'
 
-Mycobiome sequencing experiment are usually carried out using the following primers:
+Mycobiome sequencing experiments are usually carried out using the following primers:
 - ITS region 2 (ITS2) gene Ihrmark-gITS7-F 5'-TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGGTGARTCATCGARTCTTTG -3' Tedersoo-ITS4ngs-R 5'- GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGTTCCTSCGCTTATTGATATGC- 3'
 
 
