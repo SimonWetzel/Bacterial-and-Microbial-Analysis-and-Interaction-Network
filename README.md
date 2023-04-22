@@ -1,6 +1,6 @@
 A workflow for investigating Bacteriome-Mycobiome interactions and networks within the Human gut microbiome. The analysis is based on illumina 16S bacteriome and ITS2 mycobiome samples. 
 
-Copyright **Simon Wetzel and Mohamed Tarek Badr**, Date: 20 April 2023, University of Freiburg, Germany
+Copyright **Simon Wetzel** and **Mohamed Tarek Badr**, Date: 20 April 2023, University of Freiburg, Germany
 
 This code was used for the analysis of 16S/ITS2 sequencing samples for clinical studies carried out in institute of medical microbiology UMC Freiburg.
 
